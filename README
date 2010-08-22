@@ -1,0 +1,24 @@
+MoneyMan
+Copyright (C) 2009 Anton Pirogov
+
+You control a smiley which has to collect coins.
+Play in two modes - speed mode: collect the coins and thereby unlock the
+exit door and reach it.
+or time mode: collect as many coins as possible in a given amount of time.
+The game supports highscores in single player mode.
+
+In 2 Player mode you have both modes available. In time mode the player
+who gets more coins in the given time, gets a point.
+In speed mode the player gets the point who got more coins and reaches
+the exit first. All other situations end as draw.
+
+You can set the number of coins, the interval between the relocations
+and the time in the time mode to improve your game experience.
+
+Have fun!
+
+Controls: Player 1 - Arrow keys, Player 2: W,A,S,D
+
+How to compile:
+Linux: run make (you must have installed allegro)
+Windows: run make.bat (you must have installed MinGW,MSYS and Allegro)
